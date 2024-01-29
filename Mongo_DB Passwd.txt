@@ -1,1 +1,1 @@
-MongoDb Passwd: 2hCXiUWCzgycbHCR
+MongoDb Passwd: <your MongoDB password>
