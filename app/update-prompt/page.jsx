@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { useSession } from "next-auth/react"  //UseSession hook lets us know which user is currently logged in
 import { useRouter, useSearchParams } from "next/navigation"
 import Form from "@components/Form"
 
