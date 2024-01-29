@@ -7,7 +7,6 @@ import Form from "@components/Form"
 
 const EditPrompt = () => {
     const router=useRouter();
-    const {data: session} =useSession(); //to get details of the user in the current session
     const [submitting, setSubmitting] = useState(false);
     const searchParams= useSearchParams();
     const promptId= searchParams.get('id');
